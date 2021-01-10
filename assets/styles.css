@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    background: url("img/grey.png") repeat;
+    font-family: 'B612 Mono';
+    color: #050505;
+}
+
+.attribution {
+    position: fixed;
+    z-index: -1;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: right;
+    font-size: 12px;
+    color: #aaa;
+    margin: 10px;
+}
+
+.attribution a {
+    color: #bbb;
+}
+
+.card {
+    position: relative;
+    display: inline-block;
+    margin-top: 4vh;
+    padding: 20px 30px 50px;
+    background-color: #eeeeeebb;
+    border-top: 5px solid #4a74ff;
+    box-shadow: 0 2px 6px hsla(0, 0%, 0%, 0.2);
+    width: 64vw;
+    max-width: 800px;
+    text-align: left;
+    font-size: 12px;
+}
+
+.container {
+    display: flex;
+}
+
+.avatar {
+    width: 8%;
+    padding-right: 10px;
+}
+
+.info {
+    border-left: solid rgb(139, 139, 139);
+    padding-left: 10px;
+}
